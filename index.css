@@ -259,6 +259,13 @@ body:not(.user-is-tabbing) a:focus {
   background: transparent;
 }
 
+.aor__work {
+  font-size: 22px;
+  margin-bottom: 2px;
+}
+.class1 {
+  margin-left: 25px;
+}
 .demo-btn {
   position: none;
   margin-left: 30px;
