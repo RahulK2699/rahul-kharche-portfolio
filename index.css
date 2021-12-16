@@ -420,7 +420,7 @@ body:not(.user-is-tabbing) a:focus {
 .header {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
     url("./images/header.jpg");
-  height: 100vh;
+  height: 70vh;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -525,8 +525,8 @@ body:not(.user-is-tabbing) a:focus {
 
 .client__logos {
   display: flex;
-  justify-content: space-between;
-  filter: invert(100%) grayscale(100%) opacity(0.8);
+  justify-content: space-around;
+  /* filter: invert(100%) grayscale(100%) opacity(0.8); */
 }
 
 .client__logo {
