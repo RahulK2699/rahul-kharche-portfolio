@@ -522,6 +522,10 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 /* ----- Clients ----- */
 /* --------------------------------------- */
+.skill {
+  position: absolute;
+  right: 390px;
+}
 
 .client__logos {
   display: flex;
