@@ -543,6 +543,14 @@ body:not(.user-is-tabbing) a:focus {
     overflow-x: scroll;
     padding: var(--gutter-normal);
   }
+  @media (max-width: 800px) {
+    .client__logos {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      /* filter: invert(100%) grayscale(100%) opacity(0.8); */
+    }
+  }
 
   .client__logo:not(:last-of-type) {
     margin-right: var(--gutter-medium);
